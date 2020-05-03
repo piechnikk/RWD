@@ -87,19 +87,16 @@ a {
     background: url('images/css_sprites.png') -500px -10px;
 }
 
-x
 .bg-fb {
     width: 48px; height: 48px;
     background: url('images/css_sprites.png') -745px -10px;
 }
 
-x
 .bg-tw:hover {
     width: 48px; height: 48px;
     background: url('images/css_sprites.png') -990px -10px;
 }
 
-x
 .bg-tw {
     width: 48px; height: 48px;
     background: url('images/css_sprites.png') -1235px -10px;
