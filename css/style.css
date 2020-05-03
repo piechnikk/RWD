@@ -1,0 +1,106 @@
+.menu {
+    background-color: lightskyblue;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.nav-element input {
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+.all {
+    margin: 0;
+    padding: 2%;
+    padding-bottom: 0;
+    text-align: center;
+    box-shadow:0.1rem 0.1rem 1rem #aaa;
+}
+
+figure img {
+    width: 96%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+}
+.footer > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.footer ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.social > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social li {
+    margin: 1rem;
+}
+
+.bg-db:hover {
+    width: 48px; height: 48px;
+    background: url('images/css_sprites.png') -10px -10px;
+}
+
+.bg-db {
+    width: 48px; height: 48px;
+    background: url('/images/css_sprites.png') -255px -10px;
+}
+
+.bg-fb:hover {
+    width: 48px; height: 48px;
+    background: url('images/css_sprites.png') -500px -10px;
+}
+
+x
+.bg-fb {
+    width: 48px; height: 48px;
+    background: url('images/css_sprites.png') -745px -10px;
+}
+
+x
+.bg-tw:hover {
+    width: 48px; height: 48px;
+    background: url('images/css_sprites.png') -990px -10px;
+}
+
+x
+.bg-tw {
+    width: 48px; height: 48px;
+    background: url('images/css_sprites.png') -1235px -10px;
+}
