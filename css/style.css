@@ -74,30 +74,30 @@ a {
 
 .bg-db:hover {
     width: 48px; height: 48px;
-    background: url('images/css_sprites.png') -10px -10px;
+    background: url('../images/css_sprites.png') -5px -5px;
 }
 
 .bg-db {
     width: 48px; height: 48px;
-    background: url('/images/css_sprites.png') -255px -10px;
+    background: url('../images/css_sprites.png') -63px -5px;
 }
 
 .bg-fb:hover {
     width: 48px; height: 48px;
-    background: url('images/css_sprites.png') -500px -10px;
+    background: url('../images/css_sprites.png') -121px -5px;
 }
 
 .bg-fb {
     width: 48px; height: 48px;
-    background: url('images/css_sprites.png') -745px -10px;
+    background: url('../images/css_sprites.png') -179px -5px;
 }
 
 .bg-tw:hover {
     width: 48px; height: 48px;
-    background: url('images/css_sprites.png') -990px -10px;
+    background: url('../images/css_sprites.png') -237px -5px;
 }
 
 .bg-tw {
     width: 48px; height: 48px;
-    background: url('images/css_sprites.png') -1235px -10px;
+    background: url('../images/css_sprites.png') -295px -5px;
 }
