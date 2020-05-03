@@ -39,26 +39,30 @@
       </div>
     </header>
       <form class="nav">
-      <div class="nav-element">
-        <input class="nav-menu" id="all" type="radio" name="filter" checked="checked"/>
-        <label for="all">Wszystkie</label>
-      </div>
-      <div class="nav-element">
-        <input class="nav-menu" id="illustrations" type="radio" name="filter"/>
-        <label for="illustrations">Ilustracje</label>
-      </div>
-      <div class="nav-element">
-        <input class="nav-menu" id="posters" type="radio" name="filter"/>
-        <label class="nav-menu" for="posters">Plakaty</label>
-      </div>
-      <div class="nav-element">
-        <input class="nav-menu" id="typography" type="radio" name="filter"/>
-        <label for="typography">Typografia</label>
-      </div>
-      <div class="nav-element">
-        <input class="nav-menu" id="packaging" type="radio" name="filter"/>
-        <label for="packaging">Opakowania</label>
-      </div> 
+        <div class="nav-element">
+          <input class="nav-menu" id="all" type="radio" name="filter" onclick="location.href='index.html';" checked="checked"/>
+          <label for="all">Wszystkie</label>
+        </div>
+      
+        <div class="nav-element">
+          <input class="nav-menu"  id="illustrations" type="radio" name="filter" onclick="location.href='ilustracje.html';"/>
+          <label for="illustrations">Ilustracje</label>
+        </div>
+
+        <div class="nav-element">
+          <input class="nav-menu" id="posters" type="radio" name="filter" onclick="location.href='plakaty.html';"/>
+          <label class="nav-menu" for="posters">Plakaty</label>
+        </div>
+
+        <div class="nav-element">
+          <input class="nav-menu" id="typography" type="radio" name="filter" onclick="location.href='typografia.html';"/>
+          <label for="typography">Typografia</label>
+        </div>
+
+        <div class="nav-element">
+          <input class="nav-menu" id="packaging" type="radio" name="filter" onclick="location.href='opakowania.html';"/>
+          <label for="packaging">Opakowania</label>
+        </div> 
       </form>
   </div>
 
@@ -88,7 +92,7 @@
         </figcaption>
       </figure>
       <figure class="all" data category="plakaty">
-        <img src="images/img/poster-1.jpg.jpg" alt="">
+        <img src="images/img/poster-1.jpg" alt="">
         <figcaption>
           <h4>Lorem Ipsum</h4>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
@@ -164,9 +168,6 @@
       </figcaption>
     </figure>
     </div>
-
-
-
   </section>
 
 
