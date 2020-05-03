@@ -39,6 +39,10 @@ figure img {
     width: 96%;
 }
 
+.foot {
+    box-shadow:0.1rem 0.1rem 1rem #aaa;
+}
+
 .footer {
     display: flex;
     align-items: center;
