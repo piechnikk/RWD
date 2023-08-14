@@ -16,7 +16,7 @@ This is a clone of a simple responsive portfolio website built using HTML and CS
 
 Explore the [live demo](https://piechnikk.github.io/simple-rwd/) of the simple-rwd website.
 
-## Getting Started
+## Setup
 
 To get a copy of this project up and running on your local machine, follow these steps:
 
@@ -37,7 +37,7 @@ Open the `index.html` file in your preferred web browser to view the website. Th
 
   ![Home Page](https://github.com/piechnikk/simple-rwd/assets/51060535/548620f4-6d33-4c8a-bab2-a09961391966)
 
-## Build With
+## Technologies
 
 <div>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"> 
